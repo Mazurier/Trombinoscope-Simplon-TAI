@@ -1,0 +1,493 @@
+body {
+  margin:0px;
+  background: #eae9e9 url("bg.png") repeat scroll 0% 0%;
+  font-family: "BebasNeueRegular",Arial,sans-serif;
+}
+
+header {
+  width:100%;
+  height:150px;
+  background-color:#ce0033;
+  text-shadow: 2px 2px 10px gray;
+  border: 4px solid white;
+  border-left: none;
+  border-right: none;
+  margin-top: 0%;
+}
+
+#accueil {
+  margin:0;
+}
+
+.counthold{
+  position: fixed;
+  margin-top: 632px;
+  margin-left: -2px;
+  width: 190px;
+  height: 178px;
+  background: rgb(245, 254, 255);
+  border-color: #4e606e;
+  border-width: 2px;
+  border-style: solid;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+.counttext{
+  font-size: 30px;
+}
+
+.countdowner{
+  color: #ce0033;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.arrow {
+  float: left;
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.cv {
+  float: left;
+  margin-left: 55px;
+  color:white;
+  margin-top:-18px;
+}
+
+.c {
+  font-size: 200px;
+  line-height: 150px;
+}
+
+.v {
+  font-size:60px;
+  position: absolute;
+  top:41px;
+  left: 238px;
+}
+
+.precedent{
+  width: 50px;
+  height: 50px;
+  float: left;
+  position: absolute;
+  top: 1%;
+  left: 36%;
+}
+
+.suivant{
+  width: 50px;
+  height: 50px;
+  float: left;
+  position: absolute;
+  top: 1%;
+  left: 43%;
+}
+
+.name {
+  float:left;
+}
+
+.name p {
+  font-family: "BebasNeueRegular",Arial,sans-serif;
+  color:white;
+  font-weight:bolder;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top:25px;
+  line-height: 25px;
+}
+
+.ask {
+  display: inline-block;
+  width:45px;
+}
+
+.contact {
+  float:right;
+  color: white;
+  font-weight: bold;
+  margin-right: 40px;
+  font-size: 17px;
+  margin-top:-5px;
+}
+
+.contact p {
+  text-align: justify;
+}
+
+hr {
+  width:1px;
+  margin-right:70px;
+  height:90%;
+  color:white;
+}
+
+.cercles {
+  margin-top: -390px;
+  margin-left: 100px;
+}
+
+.cercles p {
+  margin-top:80px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  font-size: 19px;
+}
+
+.fenetre {
+  position: absolute;
+  margin-left: 1250px;
+  margin-top: 19px;
+  width: 620px;
+  height: 600px;
+  background: rgb(245, 254, 255);
+  border-color: #4e606e;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.sousfenetre {
+  position: absolute;
+  margin-left: -2px;
+  margin-top: -2px;
+  width: 620px;
+  height: 30px;
+  background: none;
+  border-color: #666262;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.fentext {
+  margin-left: 133px;
+  font-size: 25px;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.exppro {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #ce0033;
+}
+
+.where {
+  margin-left: 15px;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #cf4d4d;
+  font-size: 20px;
+}
+
+.when {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-weight: 400;
+  color: #444;
+}
+
+.what {
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dimitext {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 13px;
+  margin-top: 26px;
+}
+
+.dimi {
+  margin-top: -71px;
+  margin-left: 293px;
+}
+
+.cercletexte {
+  margin-top: -40px;
+}
+
+.cercletexte1 {
+  margin-top: -50px;
+}
+
+.photo {
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border: 4px solid #ce0033;
+  float:left;
+  position: absolute;
+  top:220px;
+  left:10%;
+}
+
+.photo:hover{
+  border: 4px solid #ce0033;
+
+}
+
+.travail {
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  border: 4px solid #f87272;
+  background-color: #f09d9d;
+  float:left;
+  position: absolute;
+  top:220px;
+  left:24.05%;
+}
+
+.travail:hover {
+  border: 4px solid #f87272;
+}
+
+.scolaire {
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  border: 4px solid #388E8E;
+  background-color: #79cdcd;
+  float:left;
+  position: absolute;
+  top:331px;
+  left:21%;
+}
+
+.scolaire:hover {
+  border:4px solid #388E8E;
+}
+
+.competence {
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  border: 4px solid #ff9e61;
+  float:left;
+  background-color: #FFB861;
+  position: absolute;
+  top:331px;
+  left:27%;
+}
+
+.competence:hover {
+  border:4px solid #ff9e61;
+}
+
+.photo img {
+  width: 200px;
+  height:200px;
+  border-radius: 100px ;
+}
+
+#work {
+  margin-top: 750px;
+  margin-left: 200px;
+  color:CaptionText;
+  font-weight: bold;
+  height: 300px;
+}
+
+.titre span {
+  color:#ce0033;
+}
+
+.date {
+  float: left;
+  font-size:13px;
+  margin-top:25px;
+}
+
+.date2 {
+  float: left;
+  margin-top: 104px;
+  margin-left: -281px;
+  font-size:13px;
+}
+
+.date3 {
+  float: left;
+  font-size:13px;
+  margin-top:60px;
+}
+.stage {
+  float: left;
+  margin-top: -13px;
+  margin-left: 21px;
+  width: 80%;
+  font-size: 30px;
+}
+
+.stage1 {
+  margin-top: 58px;
+  float: left;
+  margin-left: -1361px;
+  font-size: 30px;
+}
+
+.stage2 {
+  margin-top: 129px;
+  float: left;
+  margin-left: -79.9%;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+#school {
+  width:400px;;
+  height: 50px;
+  margin-top:40px;
+  margin-left: 200px;
+  font-weight: bold;
+  color:CaptionText;
+}
+
+.titre {
+  font-weight: bold;
+  font-size: 45px;
+  color:#999;
+}
+
+.bac {
+  margin-top:-27px;
+  width:1550px;
+  margin-left: 21px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.bac1 {
+  width: 820px;
+  margin-top:59px;
+  margin-left: 55px;
+}
+
+#skills {
+  margin-top:510px;
+  margin-left: 200px;
+  color:CaptionText;
+  font-weight: bold;
+  margin-bottom: 100px;
+  height:300px;
+}
+
+.skill-name {
+  margin-top:-15px;
+  float: left;
+  font-size: 30px;
+}
+
+.progress {
+  float: left;
+  width:975px;
+  height: 30px;
+  background-color: #ccc;
+  margin-left: 57px;
+  margin-top: -13px;
+}
+
+.progress2 {
+  float: left;
+  width:80%;
+  height: 50%;
+  background-color: #ce0033;
+  padding-top:1px;
+  margin-top: 7px;
+}
+
+.skill-name1 {
+  margin-top:120px;
+  font-size: 30px;
+}
+
+.progress3 {
+  float: left;
+  width:975px;
+  height: 30px;
+  background-color: #ccc;
+  margin-left: 417px;
+  margin-top: -32px;
+}
+
+.pourcent {
+  color: #ccc;
+}
+
+.pourcent:hover {
+color: black;
+
+}
+
+.progress4 {
+  float: left;
+  width: 75%;
+  height: 50%;
+  background-color: #ce0033;
+  padding-top:1px;
+  margin-top: 7px;
+}
+
+.transition {
+  width:50%;
+  margin-top:-110px;
+  margin-left:25%;
+  margin-right:25%;
+  height: 3px;
+  background: #ce0033 none repeat;
+  color:white;
+  border-style: none solid;
+}
+
+.transition2 {
+  width:50%;
+  margin-top:-465px;
+  margin-left:25%;
+  margin-right:25%;
+  height: 3px;
+  background: #ce0033 none repeat;
+  color:white;
+  border-style: none solid;
+}
+
+footer {
+  width:100%;
+  height: 55px;
+  background-color:#444;
+  margin-top: 300px;
+  border-top: solid #2f2f2f 3px;
+  border-bottom :solid #2f2f2f 4px;
+}
+
+footer img {
+  float: right;
+  margin-right:15px;
+  margin-top:8px;
+}
+
+footer p {
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  color:white;
+}
+
+.github {
+  width:19px;
+  height: 19px;
+  margin-top:10px;
+}

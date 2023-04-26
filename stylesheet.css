@@ -1,0 +1,103 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+@font-face {
+  font-family: haraba;
+  src: url(font/haraba.otf);
+}
+body {
+  margin: 0;
+}
+.accueil:hover {
+  text-shadow: 5px 5px 5px green;
+}
+.participants:hover {
+  text-shadow: 5px 5px 5px green;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 175px;
+}
+.container {
+  margin: auto;
+  height: 100%;
+}
+.trombi {
+  position: absolute;
+  margin-left: 1455px;
+  margin-top: 480px;
+}
+.trombitext{
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  margin-left: 1475px;
+  margin-top: 440px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.textezone {
+  margin-top: -350px;
+  font-family: Helvetica;
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.video {
+  margin-top: 3%;
+  margin-left: 27%;
+}
+.vid {
+  position: relative;
+  border-radius: 20px;
+  border: 5px solid #CE0033;
+}
+nav {
+  z-index: 6;
+  position: fixed;
+  top: 0px;
+  font-family: helvetica;
+  background-color: #CE0033;
+  display: inline-block;
+  height: 75px;
+  width: 100%;
+}
+.accueil, .slash, .participants {
+  float: left;
+}
+.participants{
+  margin-top: -2px;
+  margin-left: -11px;
+}
+.accueil {
+  margin-left: 784px;
+  margin-top: 8px;
+}
+.accueil, .slash {
+  margin-right: 5px;
+}
+nav div p {
+  margin-bottom: 0;
+  margin-top: 10%;
+  font-family: haraba;
+  font-size: 2em;
+  color: white;
+}
+nav div p a {
+  text-decoration: none;
+  color: white;
+}
+.slash {
+  margin-top: -40px;
+  font-size: 3.7em;
+}
+.bgcolor {
+  margin-top: 24.5%;
+  background-color: #CE0033;
+}
